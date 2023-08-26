@@ -1,0 +1,85 @@
+html{
+    -webkit-text-size-adjust: 100%;
+}
+
+#title {
+    text-align: center;
+    color: #800;
+    font-family:Tahoma;
+    font-size: 18px;
+}
+
+body{
+    background-image: url('lyricbg.jpg');
+    background-position: center top;
+    background-size: cover;
+}
+.header {
+    background-image: url(redbg.jpg);
+    background-size: auto; 
+    padding: 10px;
+
+}
+
+img{
+    filter: drop-shadow(1px 2px 5px #000); 
+    height: 80px; 
+    margin: 4px 10%;
+    float: left;
+    margin-left: 10px;
+    margin-top: -4px;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 800px;
+    font-size: 25px;
+    font-variant: small-caps;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+#marquee{
+    height : 250px ;
+    position: center fixed;
+ 
+}
+
+#marquee ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#lyrics {
+    font-size: 20px;
+    font-weight: bold;
+    width: 500px;
+    text-shadow: 2px 2px 2px #e8ede9;;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(10, 10, 10);
+    position: center fixed;
+
+}
+
+footer{
+    position: center fixed;
+    bottom: 0px;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+audio {
+    position: center fixed;
+    margin: center;
+    
+}
